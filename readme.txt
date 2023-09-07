@@ -2,7 +2,7 @@ docker steps--
 
 1- docker build -t img-static-site-example .
 
-2- docker run -it -d -p 80:80 img-static-site-example
+2- docker run -it -d -p 9090:80 img-static-site-example
 
 3- In case the port 80 is occupied by the host machine or any other docker container. You can change the host machine port to something else.
 also you can push that image artifact registry with help of below command
