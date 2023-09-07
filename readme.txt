@@ -16,7 +16,7 @@ Access you docker host using IP address (or hostname/domain name) on port 8080 t
 
 ======================================================================================================================
 
-how to push image in artifact registry
+how to push image in artifact registry 
 1- gcloud auth login
 2- gcloud auth configure-docker \
     asia-south1-docker.pkg.dev
